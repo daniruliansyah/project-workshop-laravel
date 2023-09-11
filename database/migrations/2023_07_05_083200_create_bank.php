@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('bank', function (Blueprint $table) {
             $table->id();
+            $table->int('no_rek');
             $table->timestamps();
         });
     }

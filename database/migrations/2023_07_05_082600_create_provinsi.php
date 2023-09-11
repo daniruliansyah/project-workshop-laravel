@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('provinsi', function (Blueprint $table) {
             $table->id('id_provinsi');
+            $table->varchar('nama_provinsi');
             $table->timestamps();
         });
     }
