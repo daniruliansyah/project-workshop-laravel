@@ -1,0 +1,133 @@
+body {
+    background-color: black;
+    color:white;
+}
+
+.navbar {
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    height: 25px;
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    font-size: small;
+}
+
+a:hover {
+    font-size: medium;
+}
+
+.navbar li a {
+    padding: 15px;
+}
+
+h2 {
+    margin-top: 0px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    text-align: center;
+}
+
+h4 {
+    margin-top: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    text-align: center;
+    height: 30px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+h5 {
+    margin-left: 20px;
+    height: 25px;
+    width: 15%;
+    font-size: medium;
+}
+
+main {
+    margin-top: 0px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    padding-bottom: 20px;
+    font-size: small;
+}
+
+th {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    height: 20px;
+    font-size: 12px;
+}
+
+td {
+    height: 25px;
+}
+
+.nama {
+    width: 18%;
+}
+
+.tgl_lahir {
+    width: 12%;
+}
+
+.alamat {
+    width: 48%;
+}
+
+.nohp {
+    width: 9%;
+}
+
+.foto {
+    width:10%;
+}
+
+a.button {
+    color: black;
+}
+
+button.delete {
+    background-color: red;
+    color: white;
+    font-style: italic;
+}
+
+input {
+    margin-left: 20px;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+p.nama_edit {
+    font-size: 20px;
+    color:rgb(54, 163, 118);
+}
+
+p.subjudul {
+    margin-top:10px;
+    margin-left:30px;
+}
+
+p.subisi {
+    margin-left:10px;
+}
+
+p.note {
+    margin-left: 60px;
+    font-size: 10px;
+    font-style: italic;
+}
